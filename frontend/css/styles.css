@@ -126,7 +126,7 @@ footer {
 
 .activity-card {
   color: #000;
-  position: relative;
+  position: relative; 
   height: 350px;
   /* width: calc(25% - 20px); */
   /* padding: 6px; */
@@ -134,8 +134,8 @@ footer {
   border-radius: 8px;
   cursor: pointer;
   -webkit-transition: 0.2s all;
-  overflow: hidden;
-
+  /* overflow: hidden; */
+  
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -147,6 +147,8 @@ footer {
   /* border-radius: 8px; */
   -webkit-transition: 0.2s all;
   /* -webkit-filter: brightness(70%); */
+  /* object-fit: cover; */
+  overflow: hidden;
 }
 .activity-card img:hover {
   -webkit-filter: brightness(50%);
@@ -205,7 +207,7 @@ footer {
   color: #fff;
   background: rgb(255, 145, 0);
   top: 0;
-  right: 0;
+  right: -15px;
   z-index: 1;
   margin-top: 16px;
   margin-right: 8px;
