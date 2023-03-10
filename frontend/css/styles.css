@@ -170,6 +170,7 @@ footer {
   cursor: pointer;
   -webkit-transition: 0.2s all;
   border-radius: 2px;
+  /* overflow: hidden; */
 }
 .activity-card-image:hover {
   -webkit-filter: brightness(50%);
