@@ -70,7 +70,7 @@ function addReservationToTable(reservations) {
       <td>${formattedDate}</td>
       <td>${reservation.price}</td>
       <td>${bookingTime}</td>
-      <td id=${reservation.id} class="reservation-visit-button m-2"><a href="${config.frontendEndpoint}/frontend/pages/adventures/detail/?adventure=${reservation.adventure}">Visit Adventure</a></td>
+      <td id=${reservation.id} class="reservation-visit-button m-2"><a href="../detail/?adventure=${reservation.adventure}">Visit Adventure</a></td>
       `;
       reservationDetailsTable.append(reservationDetail);
     });
